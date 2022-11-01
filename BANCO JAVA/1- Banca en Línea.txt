@@ -1,0 +1,37 @@
+1- Banca en Línea
+Debe crear la interface que simule un cajero de banca en línea. 
+La interface comenzará con un menú corto que solicite el nombre y 
+número de cuenta al usuario. Todos los usuarios tienen un saldo inicial de 1000.00. 
+Luego el menú mostrará las siguientes opciones:
+
+DEPOSITO
+
+RETIRO
+
+SALIR
+
+Cada la opción de DEPOSITO y de RETIRO debe hacer un llamado a una función independiente del cuerpo Main del programa.
+
+DEPOSITO:
+
+· Imprime el nombre del usuario y su número de cuenta con un saludo de la bienvenida.
+
+· Le da la opción al usuario de realizar un deposito o ver el saldo actualizado en la cuenta.
+
+· Cuando el usuario ingresa un monto a depositar, se actualiza el valor en la cuenta y regresa al menú principal.
+
+RETIRO:
+
+· Imprime el nombre del usuario y su número de cuenta con un saludo de la bienvenida.
+
+· Le da la opción al usuario de realizar un retiro o ver el saldo actual en la cuenta.
+
+· Cuando el usuario ingresa el monto de retiro se debe verifica que tiene suficiente saldo y se actualiza el valor en la cuenta.
+
+· Una vez actualizado el valor en la cuenta regresa al menú principal.
+
+SALIR:
+
+· El usuario sale del menú principal.
+
+· Se le muestra el nombre y un mensaje de despedida con el valor final de la cuenta
